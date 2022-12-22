@@ -1,3 +1,4 @@
+'''Класс, который может иметь только один экземпляр.'''
 class Singleton:
     _instance = None
     def __new__(cls):

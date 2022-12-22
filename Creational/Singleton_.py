@@ -1,3 +1,4 @@
+'''Класс, который может иметь только один экземпляр.'''
 class Singleton:
     def __new__(cls):
         if not  hasattr(cls,'instance'):
